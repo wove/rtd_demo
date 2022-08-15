@@ -25,3 +25,12 @@ exclude_patterns = []
 
 html_theme = 'sphinx_wagtail_theme'
 html_static_path = ['_static']
+
+html_theme_options = dict(
+    project_name = "Naturebraid documentation",
+    logo = "img/luci-logo-transparent.png",
+    logo_alt = "Naturebraid",
+    logo_height = 59,
+    logo_url = "/",
+    logo_width = 45,
+)
