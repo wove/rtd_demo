@@ -26,6 +26,7 @@ dump.rdb
 node_modules/
 .direnv/
 package-lock.json
+build/
 
 # Project Specific Stuff
 local_settings.py

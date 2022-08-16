@@ -8,7 +8,10 @@ Welcome to rtd_demo's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :titlesonly:
+
+   documentation/page1
+   documentation/page2
 
 
 

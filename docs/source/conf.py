@@ -18,7 +18,11 @@ extensions = ['sphinx_wagtail_theme', 'myst_parser']
 templates_path = ['_templates']
 exclude_patterns = []
 
-
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
@@ -34,3 +38,5 @@ html_theme_options = dict(
     logo_url = "/",
     logo_width = 45,
 )
+
+html_show_copyright = False
