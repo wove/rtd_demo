@@ -44,3 +44,52 @@ The DEM and stream network (if available) generates a hydrologically and topogra
 Because of its effcient numerical implementation, LUCI is fast-running and runs at multiple spatial scales, from sub-field to catchment to national planning. LUCI generates a series of ecosystem services maps that show areas of good provision and areas that would benefit from changes in management intervention. Multiple ecosystem services can be compared to identify where trade-offs or synergies in ecosystem services exist.
 
 A number of national datasets are supported for United Kingdom and New Zealand applications; for other countries it is currently necessary to match land cover and soil information into the supported classiffcation systems. Support for a broader range of datasets will be added in the future. Suggested/default parameters are provided with LUCI; see the individual tool documentation for more detail.
+
+(Table 2: Services, description, and method of the ES modelled by LUCI)
+| Service | Description | Method |
+|---|---|---|
+| Agricultural productivity | Evaluates the potential, current, and optimal agricultural productivity | Based on slope, fertility, drainage, aspect, climate |
+| Carbon stocks and fluxes | Calculates carbon levels at a steady state, potential to increase storage, emissions, and sequestration | IPCC Tier 1 compatible. Based on soil, vegetation, stocking rate, fertiliser |
+| Erosion and sediment | Estimates soil loss from gullies and rill/inter-rill erosion | Uses CTI and RUSLE. Based on slope, curvature, contributing area, land use and soil type |
+| Flood mitigation | Maps locations that are sinks for overland and surface flow, where flow may accumulate, and average flow to all points of the stream and lake network | Topographical routing of water accounting for storage and infiltration capacity as function of soil & land use |
+| Habitat connectivity and suitability | Identifies suitable areas for habitat expansion and protection based on connectivity and characteristics | Cost-distance approach: dispersal, fragmentation, connectivity; Identification of priority habitat by biophysical requirements; Measures of habitat richness, evenness, patch size etc. |
+| Nitrogen and Phosphorus | Maps the terrestrial load of different land cover and soil, accumulation of nutrients through the landscape, pathway to streams, and in-stream nutrient concentrations | Export coeffcients (land cover, farm type, regional fertiliser, stocking rate) combined with water and sediment delivery models |
+| Coast/floodplain inundation risk | Creates an indicative map of areas that could potentially be inundated by storm surge or long term rise | Based on topography and input height of storm surge/long term rise etc: surface and groundwater impacts estimated |
+| Trade-offs/synergy identification | Identifies areas where management interventions may enhance or degrade multiple services | Various layering options with categorised service maps; e.g. Boolean, conservative, weighted arithmetic, distribution plots |
+
+## Summary of included tools
+
+- Preprocessing tools
+    - Generate Baseline
+- Individual Ecosystem Services
+    - Agricultural Productivity
+    - Carbon Stocks and Fluxes
+    - Erosion and Sediment
+    - Flood mitigation
+    - Habitat connectivity
+    - Habitat suitability
+    - Nitrogen
+    - Phosphorus
+    - RUSLE
+- Batch run and tradeoffs
+    - Batch run ecosystem services
+    - Load Outputs for Multiple Services
+    - Tradeoff maps
+- Aggregation and disaggregation tools
+    - Report aggregate habitat metrics
+    - Report aggregate input statistics
+    - Report aggregate single service statistics
+    - Report aggregate soil metrics
+    - Report aggregate tradeoff statistics
+- Miscellaneous
+    - Calculate stream and study area statistics
+    - Change user settings
+    - Clean geodatabase
+    - Clip and buffer raster
+    - Clip data in folder
+    - Clip LUCI Subset Output
+    - Create Polygon Grid
+    - Floodplain inundation
+    - Recondition DEM
+    - Sea level inundation
+    - Show terrestrial flow
