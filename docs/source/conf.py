@@ -31,6 +31,7 @@ master_doc = 'index'
 
 html_theme = 'sphinx_wagtail_theme'
 html_static_path = ['_static']
+html_css_files = ["css/custom.css"]
 
 html_theme_options = dict(
     project_name = "Naturebraid documentation",
@@ -39,6 +40,12 @@ html_theme_options = dict(
     logo_height = 59,
     logo_url = "/",
     logo_width = 45,
+    github_url = "",
+    header_links = "",
+    footer_links = ",".join([
+        "About Us|https://naturebraid.org/about",
+        "Contact|https://naturebraid.org/contact",
+    ]),
 )
 
 html_show_copyright = False
