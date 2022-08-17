@@ -5,10 +5,15 @@ The LUCI (Land Utilisation and Capability Indicator) model, is a second-generati
 ## The ecosystem services that LUCI models include
 
 - Agricultural production
+
 - Erosion risk and sediment delivery
+
 - Carbon sequestration
+
 - Flood mitigation
+
 - Habitat provision
+
 - Water quality – Nitrogen and Phosphorus
 
 ## Background
@@ -31,9 +36,11 @@ LUCI requires three datasets to run and can be enhanced with local data if avail
 1. **Digital elevation model (DEM):** To represent landscape topography and ideally has a grid size of 5x5m
 to 10x10m, although any resolution data can be used as input. The finer the resolution the more detailed the
 output
+
 2. **Land cover information:** To represent impacts of different types of vegetation and management on ecosys-
 tem services. The land cover information must first be correlated to the existing database of land cover types
 already supported by LUCI
+
 3. **Soil information:** To represent the effect of soil types on ecosystem services. The soil information must first
 be correlated to one of the existing soil classiffcation schemes already supported by LUCI
 
@@ -60,36 +67,69 @@ A number of national datasets are supported for United Kingdom and New Zealand a
 ## Summary of included tools
 
 - Preprocessing tools
+
     - Generate Baseline
+
 - Individual Ecosystem Services
+
     - Agricultural Productivity
+    
     - Carbon Stocks and Fluxes
+    
     - Erosion and Sediment
+    
     - Flood mitigation
+    
     - Habitat connectivity
+    
     - Habitat suitability
+    
     - Nitrogen
+    
     - Phosphorus
+    
     - RUSLE
+
 - Batch run and tradeoffs
+    
     - Batch run ecosystem services
+    
     - Load Outputs for Multiple Services
+    
     - Tradeoff maps
+
 - Aggregation and disaggregation tools
+    
     - Report aggregate habitat metrics
+    
     - Report aggregate input statistics
+    
     - Report aggregate single service statistics
+    
     - Report aggregate soil metrics
+    
     - Report aggregate tradeoff statistics
+
 - Miscellaneous
+    
     - Calculate stream and study area statistics
+    
     - Change user settings
+    
     - Clean geodatabase
+    
     - Clip and buffer raster
+    
     - Clip data in folder
+    
     - Clip LUCI Subset Output
+    
     - Create Polygon Grid
+    
     - Floodplain inundation
+    
     - Recondition DEM
+    
     - Sea level inundation
+    
     - Show terrestrial flow

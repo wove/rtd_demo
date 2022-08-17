@@ -12,4 +12,6 @@ This documentation combines the information from the *LUCI v0.4 help documentati
 
 documentation/overview
 documentation/quick_start_guide
+documentation/preprocessing_tools_guide
+documentation/individual_ecosystem_services_tools
 ```
