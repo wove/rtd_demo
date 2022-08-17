@@ -2,7 +2,7 @@
 
 All of the individual ecosystem services tools requires the output from the **Generate Baseline** tool. Each tool generates files and several are loaded to the screen with the correct symbology and the legend. The key outputs are written to a PDF file that can be found within the output folder. If desired, the key maps and tables can be generated in PNG format by ticking the *Generate PNG maps and graphs parameter*. These maps and tables can be found under the Images folder of the output folder.
 
-If a tool fails, the user can re-run the tool through the Results window and tick the Rerun tool (will continue pre- vious run from the point where any errors occurred option. This only works if the relevant files such as intermediate and temporary files are still within the scratch folder and have not been erased
+If a tool fails, the user can re-run the tool through the Results window and tick the Rerun tool (will continue previous run from the point where any errors occurred option. This only works if the relevant files such as intermediate and temporary files are still within the scratch folder and have not been erased
 
 ## Agricultural Productivity
 
@@ -18,7 +18,7 @@ As input, this tool requires the outputs from the **Generate Baseline** tool. Ou
 
 - **Input:** Study area baseline folder: Specify the path and folder where files are stored from running the **Generate Baseline** tool.
 
-- **Slope threshold (degrees) for very productive land:** Maximum slope (in degrees) of very highly pro- ductive agricultural land. This can be changed to respect regional agricultural practice. If an adjusted value is applied, this should be considered when interpreting model output, in terms of additional management efforts required to enable agricultural production of steeper slopes. When setting this threshold DEM resolution should be considered. For example, use of an overly coarse DEM may mean that smaller areas of steep slope are not detected. *(Default value is 5.)*
+- **Slope threshold (degrees) for very productive land:** Maximum slope (in degrees) of very highly productive agricultural land. This can be changed to respect regional agricultural practice. If an adjusted value is applied, this should be considered when interpreting model output, in terms of additional management efforts required to enable agricultural production of steeper slopes. When setting this threshold DEM resolution should be considered. For example, use of an overly coarse DEM may mean that smaller areas of steep slope are not detected. *(Default value is 5.)*
 
 - **Slope threshold (degrees) for somewhat productive land:** Maximum slope (in degrees) of somewhat productive agricultural land. This can be changed to respect regional agricultural practice. If an adjusted value is applied, this should be considered when interpreting model output, in terms of additional management efforts required to enable agricultural production of steeper slopes. When setting this threshold DEM resolution should be considered. For example, use of an overly coarse DEM may mean that smaller areas of steep slope are not detected. *(Default value is 15.)*
 
@@ -34,7 +34,7 @@ As input, this tool requires the outputs from the **Generate Baseline** tool. Ou
 
     - *3: very low fertility*
 
-- **Save intermediate calculations?:** If this is selected, the intermediate categorisations for agricultural pro- ductivity, based on single indicators only (i.e. slope, waterlogging etc.), are saved for user inspection. This will enable consideration of how the component factors affect productivity potential. Saving this data is recommended if slope and elevtaion thresholds are adjusted or soil fertility reweighted because exploration of intermediary data will enable the influence of these user choices to be better understood when interpreting model output.
+- **Save intermediate calculations?:** If this is selected, the intermediate categorisations for agricultural productivity, based on single indicators only (i.e. slope, waterlogging etc.), are saved for user inspection. This will enable consideration of how the component factors affect productivity potential. Saving this data is recommended if slope and elevtaion thresholds are adjusted or soil fertility reweighted because exploration of intermediary data will enable the influence of these user choices to be better understood when interpreting model output.
 
 - **Consider slope in overall valuation?:** Select to consider slope in evaluation of agricultural productivity. This should be applied in areas where slope is a factor in agricultural productivity. If not selected in areas with slopes over relevant thresholds, this may reduce accuracy of output on predicted agricultural productivity.
 
@@ -172,7 +172,7 @@ As input, this tool requires stream network data, a hydrologically consistent di
 
 - **Flood mitigation classification (mitclass):** This map shows the mitigation classification of the current soil/landuse. Areas that are providing mitigation of flow (e.g., trees, ponds, deep permeable soils or other flow sinks) are shown as pale green, areas that receive mitigation (i.e. water and other mass originating there later flow through mitigated areas before reaching a stream, lake or river) are shown as orange, and areas with low permeability and/or storage that do NOT flow through a mitigated area are shown as red. Potential sources of error include inaccuracies in land use input data or LUCI classification of land cover as mitigating or not-mitigating, as well as failure to account for soil permeability. 
 
-- **Flood interception classification (scenflood):** This map shows the flood mitigation layer. High pri- ority areas for targeting modifications are those where unmitigated flood generating land concentrates flow accumulation, and there is potential to make modifications that significantly improve water holding capacity, infiltration capacity, etc. red areas show areas of high flow concentration (large contributing area with no mitigation) and where landscape could benefit from mitigation; areas with negligible flow concentration are shown as orange and areas that are providing mitigation of flow (e.g., trees, ponds, deep permeable soils or other flow sinks) are shown as green. Potential sources of error include inaccuracies in land use input data or LUCI classification of land cover as mitigating or not-mitigating. Failure to account for storage capacity of deep soils in non-wetland areas, or faster runoff in urban areas with paved surface may reduce accuracy of mapping of areas of high and low flood concentration. 
+- **Flood interception classification (scenflood):** This map shows the flood mitigation layer. High priority areas for targeting modifications are those where unmitigated flood generating land concentrates flow accumulation, and there is potential to make modifications that significantly improve water holding capacity, infiltration capacity, etc. red areas show areas of high flow concentration (large contributing area with no mitigation) and where landscape could benefit from mitigation; areas with negligible flow concentration are shown as orange and areas that are providing mitigation of flow (e.g., trees, ponds, deep permeable soils or other flow sinks) are shown as green. Potential sources of error include inaccuracies in land use input data or LUCI classification of land cover as mitigating or not-mitigating. Failure to account for storage capacity of deep soils in non-wetland areas, or faster runoff in urban areas with paved surface may reduce accuracy of mapping of areas of high and low flood concentration. 
 
 - **Classified average water flow (avgflow_class):** Classified version of average water flow created for display purposes (feature class). Subject to same sources of error as the non-classified version. Accuracy is dependent on the use of representative precipitation data, and the approach used to calculate estimated potential evapotranspiration. Changes in land use which will affect evapotranspiration must be considered. Routing is modelled based on topography and river maps, so any inaccuracies in these may also be important.
 
@@ -244,11 +244,11 @@ The export coefficients were originally calculated at small-catchment scale. At 
 
 - **N concentration threshold 1 (mg/l):** Specify the threshold in milligrams per litre (mg/L) below which accumulated N concentration is to be considered of no concern. In the absence of site-specific information and requirements, 5mg/L is suggested, based on World Health Organisation recommendation of maximum concentration of 11.3mg/L for drinking water. *Default value is 5mg/L.*
 
-- **N concentration threshold 2 (mg/l):** Specify the threshold in milligrams per litre (mg/L) above which accumulated N concentration is to be considered of significant concern. In the absence of site specific in- formation and requirements, 10mg/L is suggested based on World Health Organisation recommendation of maximum concentration of 11.3mg/L N for drinking water. *Default value is 10mg/L.*
+- **N concentration threshold 2 (mg/l):** Specify the threshold in milligrams per litre (mg/L) above which accumulated N concentration is to be considered of significant concern. In the absence of site specific information and requirements, 10mg/L is suggested based on World Health Organisation recommendation of maximum concentration of 11.3mg/L N for drinking water. *Default value is 10mg/L.*
 
 - **N critical load threshold 1 (kg/yr):** Specify the threshold in kilograms N per year (kg/yr) below which accumulated N load is considered of no concern. In the absence of site specific information or requirements, 0.1kg/yr is suggested. *Default value is 0.1kg/yr.*
 
-- **N critical load threshold 2 (kg/yr):** Specify the threshold in kilograms N per year (kg/yr) above which accumulated N load is considered of significant concern. In the absence of site specific information or require- ments, 1kg/yr is suggested. *Default value is 1kg/yr.*
+- **N critical load threshold 2 (kg/yr):** Specify the threshold in kilograms N per year (kg/yr) above which accumulated N load is considered of significant concern. In the absence of site specific information or requirements, 1kg/yr is suggested. *Default value is 1kg/yr.*
 
 - **Root zone to stream attenuation factor:** Specify the proportion of accumulated N remaining in the water that is routed to the stream. This parameter reflects N loss from attenuation in the rooting zone. Values from 0 to 1 are appropriate. The value should be set to reflect the proportion of accumulated N remaining in the water routed to the stream. **Note:** Not currently being used in the UK version. *Default value is 0.5.*
 
@@ -280,7 +280,7 @@ Within the output folder are additional output files showing instream nutrient c
 
 - **Stream entry and exit points (entryexitpoints):** This map shows the streams and where they enter/exit the study area. 
 
-- **Stream watersheds (watersheds):** For each of the streams in the study area, this map shows the con- tributing watershed to that stream.
+- **Stream watersheds (watersheds):** For each of the streams in the study area, this map shows the contributing watershed to that stream.
 
 ## Phosphorus
 
@@ -299,11 +299,11 @@ The export coefficients were originally calculated at small-catchment scale. At 
 
 - **Proportion dissolved vs particulate:** Specify the proportion of P expected to be in dissolved rather than particulate form. *Default value is 0.3.*
 
-- **P critical accumulation threshold 1 (mg/l):** Specify the threshold in milligrams per litre (mg/L) below which accumulated P concentration is to be considered of no concern (oligotrophic). In the absence of site- specific information and requirements, 0.025mg/L is suggested, based on guidance from Dodds et al. (1998). *Default value is 0.025mg/L.*
+- **P critical accumulation threshold 1 (mg/l):** Specify the threshold in milligrams per litre (mg/L) below which accumulated P concentration is to be considered of no concern (oligotrophic). In the absence of site-specific information and requirements, 0.025mg/L is suggested, based on guidance from Dodds et al. (1998). *Default value is 0.025mg/L.*
 
 - **P critical accumulation threshold 2 (mg/l):** Specify the threshold in milligrams per litre (mg/L) above which accumulated P concentration is to be considered of no more than moderate concern (mesotrophic). In the absence of site-specific information and requirements, 0.075mg/L is suggested, based on guidance from Dodds et al. (1998). *Default value is 0.075mg/L. P critical load threshold 1 (kg/yr):** Specify the*threshold in kilograms P per year (kg/yr) below which accumulated P load is considered of no concern. In the absence of site-specific information or requirements, 0.01kg/yr is suggested. *Default value is 0.01kg*yr. 
 
-- **P critical load threshold 2 (kg/yr):** Specify the threshold in kilograms P per year (kg/yr) above which accumulated P load is considered of significant concern. In the absence of site-specific information or require- ments, 0.1kg/yr is suggested. *Default value is 0.1kg/yr.*
+- **P critical load threshold 2 (kg/yr):** Specify the threshold in kilograms P per year (kg/yr) above which accumulated P load is considered of significant concern. In the absence of site-specific information or requirements, 0.1kg/yr is suggested. *Default value is 0.1kg/yr.*
 
 - **Root zone to stream attenuation factor:** Specify the proportion of accumulated P remaining in the water that is routed to the stream. This parameter reflects P loss from attenuation in the rooting zone. Values from 0 to 1 are appropriate. The value should be set to reflect the proportion of accumulated P remaining in the water routed to the stream. **Note:** Not currently being used in the UK version. *Default value is 0.5.*
 
@@ -335,7 +335,7 @@ Within the output folder are additional output files showing instream nutrient c
 
 - **Stream entry and exit points (entryexitpoints):** This map shows the streams and where they enter/exit the study area. 
 
-- **Stream watersheds (watersheds):** For each of the streams in the study area, this map shows the con- tributing watershed to that stream.
+- **Stream watersheds (watersheds):** For each of the streams in the study area, this map shows the contributing watershed to that stream.
 
 ## RUSLE
 

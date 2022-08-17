@@ -1,6 +1,6 @@
 # Quick start guide
 
-LUCI requires ArcGIS 10.4 or higher and the Spatial Analyst license to run. Generally any computer that is able to run ArcMap is able to run LUCI. **Installing and using LUCI is done through GitHub, and instructions will be provided upon enquiry. Testing of server-based and web-based LUCI is currently ongoing.**
+LUCI requires ArcGIS 10.4 or higher and the Spatial Analyst license to run. Generally any computer that is able to run ArcMap is able to run LUCI. ***Installing and using LUCI is done through GitHub, and instructions will be provided upon enquiry. Testing of server-based and web-based LUCI is currently ongoing.***
 
 It is recommended to keep the LUCI files within their own folder on a drive where you have write permissions, and ensure that the folder structure is intact. The files must not be placed on in a OneDrive folder and the path to the files must not have any spaces. LUCI is likely to run much slower if it is put on a network drive, or is writing output to a network drive. We suggest using a local drive on your computer (e.g. the C drive). There are also significant speed increases when writing to solid state drives and to machines with ample memory.
 

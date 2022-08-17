@@ -92,7 +92,7 @@ For trade-off analysis, this categorisation is further reduced into "high existi
 
     - *Summary:* generates the Limited map, and stores additional information at each pixel so the total number of "wins", "losses", and "negligible impacts" can be investigated. 
 
-    - *Individual:* stores individual service information on "wins", "losses" etc so these numbers can be inter- rogated along with the summary output at each pixel. 
+    - *Individual:* stores individual service information on "wins", "losses" etc so these numbers can be interrogated along with the summary output at each pixel. 
 
     - *Full (summary + individual):* stores all this information within all output tradeoff rasters. Users should balance their needs for fuller reporting/analysis with storage and computational demands. 
 
