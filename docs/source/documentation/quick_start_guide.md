@@ -8,11 +8,11 @@ It is recommended to keep the LUCI files within their own folder on a drive wher
 
 1. **Ensure geoprocessing results are set so they can be overwritten:** Go to *Geoprocessing > Geoprocessing
 Options....* Check "Overwrite the outputs of geoprocessing operations".
-    ![Ensure geoprocessing results are set so they can be overwritten](images/luci-logo-transparent.png)
+    ![Ensure geoprocessing results are set so they can be overwritten](images/ensure_geoprocessing_results_are_set_so_they_can_be_overwritten.png)
 2. **Ensure spatial analyst license is enabled:** Go to *Customize > Extensions....* Check "Spatial Analyst."
-    ![Ensure spatial analyst license is enabled](images/luci-logo-transparent.png)
+    ![Ensure spatial analyst license is enabled](images/ensure_spatial_analyst_license_is_enabled.png)
 3. **Load LUCI for use within ArcMap:** Through the ArcToolbox window, right-click on *ArcToolbox* and select *Add Toolbox....* Navigate to where you have stored the LUCI files and under the *LUCItools folder*, select the *LUCI_tools.pyt* file and click *Open*. A toolbox called *LUCI General Release Tools v0_8* will be added to your ArcToolbox window. If you would like LUCI to be automatically loaded into all future sections, right-click on *ArcToolbox* again once LUCI has loaded in, select *Save Settings* and *To Default*. If you do not do this, each time you use LUCI you will need to load the toolbox to your ArcMap session first.
-    ![Load LUCI for use within ArcMap](images/luci-logo-transparent.png)
+    ![Load LUCI for use within ArcMap](images/load_luci_for_use_with_arcmap.png)
 
 LUCI is now ready to run. Here are a few technical guideliness for running LUCI:
 - Please note there are a number of ArcGIS bugs that intermittently interrupt LUCI operations that are beyond our control: please exit ArcMap and start again if you have any error messages that do not give any guidance on what might have gone wrong, or relate to not being able to write or overwrite a file to a location.
@@ -32,7 +32,7 @@ Some of the LUCI operations require tools and algorithms to be carried out in a 
 4. **View outputs:** All tools produce a PDF with the main output maps and summary tables produced by the tool. This PDF is found under the output folder with the same name as the tool. At the end of almost every tool is the **Generate PNG maps and graphs** option. When ticked, the tool will produce maps and graphs of the output that can be found under the *Images* folder inside the output folder
 
 (Figure 1: Sample workflow for LUCI applications)
-![Sample workflow for LUCI applications](images/luci-logo-transparent.png)
+![Sample workflow for LUCI applications](images/sample_workflow_for_luci_applications.png)
 
 ## Exploring different scenarios
 

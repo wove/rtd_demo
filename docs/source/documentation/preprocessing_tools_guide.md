@@ -92,7 +92,7 @@ The only preprocessing tool within LUCI is the *Generate* Baseline tool which mu
 - **Stream smooth drop buffer distance (m), stream smooth drop (m), and stream drop (m):** These three parameters influence the stream reconditioning as seen below:
 
     (Figure 2: Diagram of the stream reconditioning parameters at the stream cross-section)
-    ![Diagram of the stream reconditioning parameters at the stream cross-section](images/luci-logo-transparent.png)
+    ![Diagram of the stream reconditioning parameters at the stream cross-section](images/diagram_of_the_stream_reconditioning_parameters_at_the_stream_cross-section.png)
 
 - **Minimum lake area threshold (ha):** Specify the minimum area threshold in hectares (ha) for a water body to be considered a lake and for output from that water body to be generated.
 
