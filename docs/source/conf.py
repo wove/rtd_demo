@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'rtd_demo'
-copyright = '2022, Tomlin'
-author = 'Tomlin'
+project = 'nature_braid_demo'
+copyright = '2022, Nature Braid'
+author = 'Nature Braid team'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -34,9 +34,9 @@ html_static_path = ['_static']
 html_css_files = ["css/custom.css"]
 
 html_theme_options = dict(
-    project_name = "Naturebraid documentation",
+    project_name = "Nature Braid documentation",
     logo = "img/luci-logo-transparent.png",
-    logo_alt = "Naturebraid",
+    logo_alt = "Nature Braid",
     logo_height = 59,
     logo_url = "/",
     logo_width = 45,
